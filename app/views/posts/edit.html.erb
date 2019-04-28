@@ -2,6 +2,7 @@
 
 <%= form_tag (@post) do |f| %>
 <!--#f is an iterator for the new form object to dynamically assign form field elements + autofills values-->
+
   <label>Post title:</label><br>
   <%= text_field_tag :title, @post.title %><br>
 
